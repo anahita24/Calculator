@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator </title>
+        <link href="index.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <center><header>Calculator</header></center>
+        <main><center>
+        <div id="calculator">
+            <div id="input"></div>
+            
+            <div id="grid-container">
+            <button id="ans" class="val" onclick="ans()">=</button>
+            <button disabled></button>
+            <button disabled></button>
+            <button disabled></button>
+            <button id="block1" class="num" onclick="takeinput(1)">1</button>
+            <button id="block2" class="num" onclick="takeinput(2)">2</button>
+            <button id="block3" class="num" onclick="takeinput(3)">3</button>
+            <button id="plus" class="val" onclick="plus()">+</button>
+            <button id="block4" class="num"  onclick="takeinput(4)">4</button>
+            <button id="block5" class="num" onclick="takeinput(5)">5</button>
+            <button id="block6" class="num" onclick="takeinput(6)">6</button>
+            <button id="minus" class="val" onclick="minus()">-</button>
+            <button id="block7" class="num" onclick="takeinput(7)">7</button>
+            <button id="block8" class="num" onclick="takeinput(8)">8</button>
+            <button id="block9"class="num" onclick="takeinput(9)">9</button>
+            <button id="multiply"class="val" onclick="multiply()">X</button> 
+            <button id="block0"class="num" onclick="takeinput(0)">0</button>
+            <button id="dot" class="val" onclick="takeinput(10)">.</button>
+            <button id="clr" class="val" onclick="clearscreen()">Clr</button>
+            <button id="divide" class="val" onclick="divide()">/</button>
+            
+        </div>
+        </div>
+    </center>
+    </main>
+
+        <footer></footer>
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
